@@ -1,4 +1,5 @@
 def square_array(numbers)
   array = numbers
-  array.each {|x| print x**2}
+  array.each {|x| a = x**2}
+  print array
 end
